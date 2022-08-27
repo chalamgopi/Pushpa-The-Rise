@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTestSuite" verbose="1">
+	
+	<test name="PushpaTheRiseWiki">
+		<classes>
+			<class name="com.pushpatherise.theinternet.pagetests.PushpaTheRiseWiki" />
+		</classes>
+	</test>
+	
+	<test name="PushpaTheRiseIMDb">
+		<classes>
+			<class name="com.pushpatherise.theinternet.pagetests.PushpaTheRiseWiki" />
+		</classes>
+	</test>
+</suite>
